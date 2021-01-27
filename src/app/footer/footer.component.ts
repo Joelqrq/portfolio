@@ -1,12 +1,12 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
-  selector: 'jq-sidenav',
-  templateUrl: './sidenav.component.html',
-  styleUrls: ['./sidenav.component.scss'],
+  selector: 'jq-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class SidenavComponent implements OnInit {
+export class FooterComponent implements OnInit {
 
   constructor() { }
 
