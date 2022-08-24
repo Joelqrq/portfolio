@@ -1,12 +1,9 @@
 const colors = require("tailwindcss/colors");
-require("dotenv").config();
 
 module.exports = {
-  purge: {
-    enabled: true,
-    content: ["./src/**/*.html", "./src/**/*.scss"],
-  },
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    "./src/**/*.html",
+     "./src/**/*.scss"],
   theme: {
     fontFamily: {
       sans: "Lato, sans-serif",
@@ -42,9 +39,6 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({}),
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };
